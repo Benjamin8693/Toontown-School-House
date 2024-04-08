@@ -40,6 +40,7 @@ def loadParticleFile(name):
         particleSearchPath.appendDirectory(Filename('/phase_3.5/etc'))
         particleSearchPath.appendDirectory(Filename('/phase_4/etc'))
         particleSearchPath.appendDirectory(Filename('/phase_5/etc'))
+        particleSearchPath.appendDirectory(Filename('/phase_6/etc'))
         particleSearchPath.appendDirectory(Filename('/phase_8/etc'))
         particleSearchPath.appendDirectory(Filename('/phase_9/etc'))
 
