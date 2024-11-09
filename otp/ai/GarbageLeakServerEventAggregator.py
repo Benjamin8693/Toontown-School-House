@@ -9,7 +9,6 @@ class GarbageLeakServerEventAggregator(DirectObject):
         self._sentLeakDesc2num = {}
         self._curLeakDesc2num = {}
         self.accept(GarbageReport.GarbageCycleCountAnnounceEvent, self._handleCycleCounts)
-        return
 
     def destroy(self):
         self._stopSending()

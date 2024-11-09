@@ -6,10 +6,7 @@ from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
 for key in OL.SpeedChatStaticTextCommon.iterkeys():
     OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
-    
 ExtraKeySanityCheck = 'Ignore-me'
-commitmanString = 'bugfix! I changed this'
-commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
